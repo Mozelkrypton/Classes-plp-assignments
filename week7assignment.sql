@@ -63,7 +63,7 @@ INSERT INTO OrderItems (OrderID, Product, Quantity)
 SELECT OrderID, Product, Quantity 
 FROM OrderDetails;
 
--- Verify 2NF structure with a query
+-- Verify 2NF structure 
 SELECT 
     o.OrderID,
     o.CustomerName,
